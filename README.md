@@ -23,6 +23,7 @@ p.p.s. 如遇毛玻璃阻挡鼠标，请牢记 [Alt + F4]。
 ---
 
 ## Instructions for Use:
+You can adjust it to translate into any target language by modifying [Class Translator].__translate within the loop, where the translation is performed with the following function: translation = translate(text=text[i], target_lang="zh-CN", source_lang="auto",translators=["bing"]).
 Click on [置顶] (Top) in the upper left corner to initialize, then click [开始翻译] (Start Translation) to begin.
 Due to network latency, the maximum number of recognized words on the screen is currently set to 100.
 Translation is not limited to any specific language.
